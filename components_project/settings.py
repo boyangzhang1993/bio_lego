@@ -27,7 +27,13 @@ SECRET_KEY = "django-insecure-5v7v5c17a)mz^x24btymx9_^)5%k$$sc6@)ee&11w&!dm%8(&b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# settings.py
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'bio-lego-alpha-3dde534e596a.herokuapp.com',  # Add your domain here
+]
+
 
 # Application definition
 
