@@ -14,11 +14,16 @@
 
 <body>
 
-    <nav class="navbar navbar-light bg-light">
-  <span class="navbar-brand mb-0 h1">BioLEGO: Generate/Explain Nextflow Scripts of Bioinformatics Pipelines</span>
+    <nav class="navbar navbar-light semi-transparent-title">
+    <span class="navbar-brand mb-0 h1">BioLEGO: Generate/Explain Nextflow Scripts of Bioinformatics Pipelines</span>
     </nav>
 
-
+    <style>
+        .semi-transparent-title {
+          background-color: rgba(196, 245, 132, 0.388); /* Adjust the last value (0.5) to change the transparency */
+        }
+    </style>
+      
     <div class="container">
         {% block content %}
         {% endblock content %}
@@ -27,6 +32,7 @@
     <!-- Bootstrap JS -->
 
     <!-- htmx -->
+
 
 </body>
 
